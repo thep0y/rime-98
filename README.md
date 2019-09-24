@@ -7,7 +7,7 @@
 
 
 ## 使用简要步骤：
-- 将wubi98.dict.yaml、wubi98.schema.yaml、pinyin_simp.dict.yaml、pinyin_simp.schema.yaml、default.custom.yaml下载下来后，放在RIME的配置文件夹内。
+- 将wubi98.dict.yaml(98五笔词库)、wubi98.schema.yaml(配置文件)、pinyin_simp.dict.yaml(反查必须的拼音词库)、pinyin_simp.schema.yaml(拼音词库配置文件)、default.custom.yaml(用户配置文件)下载下来后，放在RIME的配置文件夹内。
 - 配置文件夹为`~/Library/Rime`，快速进入方式是通过RIME的“用户设定...”进入。
 - 修改squirrel.yaml，选择自己喜欢的皮肤。
 - 选择“重新部署”，即可生效。
