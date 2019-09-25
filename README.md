@@ -6,7 +6,7 @@
 皮肤是在squirrel.yaml里，名叫“mojave_dark”，配置可参考本仓库/build/squirrel.yaml。
 
 
-## 使用简要步骤：
+## 鼠须管使用简要步骤：
 - 将wubi98.dict.yaml(98五笔词库)、wubi98.schema.yaml(配置文件)、pinyin_simp.dict.yaml(反查必须的拼音词库)、pinyin_simp.schema.yaml(拼音词库配置文件)、default.custom.yaml(用户配置文件)下载下来后，放在RIME的配置文件夹内。
 - 配置文件夹为`~/Library/Rime`，快速进入方式是通过RIME的“用户设定...”进入。
 - 修改squirrel.yaml，选择自己喜欢的皮肤。
