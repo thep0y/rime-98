@@ -1,6 +1,7 @@
 patch:
   schema_list:
       - schema: wubi98
+      - schema: wubi98single
 
   switcher:
     caption: 〔方案選單〕
