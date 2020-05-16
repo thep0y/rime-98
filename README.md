@@ -5,6 +5,7 @@
 
 皮肤是在squirrel.yaml里，名叫“mojave_dark”，配置可参考本仓库/build/squirrel.yaml。
 
+**F4 键在五笔词库和单字词库之间切换。**
 
 ## 鼠须管(Mac)使用简要步骤：
 - 将wubi98.dict.yaml(98五笔词库)、wubi98.schema.yaml(配置文件)、pinyin_simp.dict.yaml(反查必须的拼音词库)、pinyin_simp.schema.yaml(拼音词库配置文件)、default.custom.yaml(用户配置文件)下载下来后，放在RIME的配置文件夹内。
