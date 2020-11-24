@@ -1,0 +1,91 @@
+patch:
+  # "style/display_tray_icon": false
+  # "style/horizontal": true #横排显示
+  # "style/font_face": "Smartisan Compact CNS" #字体
+  # "style/font_point": 13 #字体大小
+  # "style/inline_preedit": true # 嵌入式候选窗单行显示
+
+
+  # "style/layout/border_width": 0
+  # "style/layout/border": 0
+  # "style/layout/margin_x": 8 #候选字左右边距
+  # "style/layout/margin_y": 8 #候选字上下边距
+  # "style/layout/hilite_padding": 8 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+  # "style/layout/hilite_spacing": 3 # 序号和候选字之间的间隔
+  # "style/layout/spacing": 10 #不知道干嘛的，在weasel下好像没有效果
+  # "style/layout/candidate_spacing": 12 # 候选字间隔
+  # "style/layout/round_corner": 0 #候选字背景色块圆角幅度
+
+  style:
+     corner_radius: 0
+     font_face: "Smartisan Compact CNS Regular"
+     font_point: 13
+     horizontal: true
+     inline_preedit: true
+     layout: {border_width: 2, candidate_spacing: 30, hilite_padding: 15, hilite_spacing: 15, margin_x: 15, margin_y: 10, min_width: 102, round_corner: 0, spacing: 15}
+
+  preset_color_schemes/DarkGreen:
+     author: Mirtle
+     back_color: 0x000000
+     border_color: 0x000000
+     candidate_text_color: 0xFFFFFF
+     comment_text_color: 0x3434BF
+     hilited_back_color: 0x000000
+     hilited_candidate_back_color: 0x000000
+     hilited_candidate_text_color: 0xFFFFFF
+     hilited_text_color: 0xA3A3A3
+     name: "暗绿"
+     text_color: 0xFFFFFF
+
+  preset_color_schemes/西米露:
+    name: 西米露
+    author: Loong
+    back_color: 0x030303 #候选框 の 背景色
+    border_color: 0x0A0A0A #候选框 の 边框颜色
+    text_color: 0xFAFAFF #已选择字 の 文字颜色
+    hilited_text_color: 0xFFFFFF #已选择字右侧拼音 の 文字颜色
+    hilited_back_color: 0x4734D6 #已选择字右侧拼音 の 背景色
+    hilited_candidate_text_color: 0xFFFFFF #候选字 の 颜色
+    hilited_candidate_back_color: 0x4734D6 #候选字 の 背景色
+    candidate_text_color: 0xFFFFFF #未候选字 の 颜色
+    comment_text_color: 0xFCFCFC #未知效果
+
+  preset_color_schemes/appsored:
+    author: "Astrian Zheng"
+    back_color: 0x2824C8
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c. %@ "
+    candidate_text_color: 0xC5C3F2
+    comment_text_color: 0xFFFFFF
+    corner_radius: 6
+    font_point: 16
+    hilited_candidate_back_color: 0x2824C8
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    horizontal: true
+    label_color: 0xC5C3F2
+    label_font_point: 12
+    name: "AppSo 红"
+    text_color: 0xC5C3F2
+  preset_color_schemes/ifanrblack:
+    author: "Astrian Zheng"
+    back_color: 0x000000
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c. %@ "
+    candidate_text_color: 0x2824C8
+    comment_text_color: 0xFFFFFF
+    corner_radius: 6
+    font_point: 16
+    hilited_candidate_back_color: 0x000000
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0xFFFFFF
+    horizontal: true
+    label_color: 0x2824C8
+    label_font_point: 12
+    name: "爱范儿黑"
+    text_color: 0x2824C8
+  style/color_scheme: 西米露
