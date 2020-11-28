@@ -9,7 +9,7 @@ patch:
 
   preset_color_schemes:
     green_dark:
-      name: "春夜黑"
+      name: "春夜绿"
       author: "thepoy"
       back_color: 0x030303
       border_color: 0x0A0A0A
