@@ -52,6 +52,8 @@ speller:
   auto_select: true
   #四码唯一时自动上屏
   auto_select_unique_candidate: true
+  #自动清除空码
+  auto_clear: max_length
   
 
   delimiter: "~"
