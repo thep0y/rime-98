@@ -36,7 +36,7 @@ sudo pacman -S fcitx-rime fcitx-configtool
 echo 'export GTK_IM_MODULE=fcitx\nexport QT_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx' > .xprofile
 ```
 注销即可用。码表导入同Debian。
-**Arch**最好还是安装fcitx5-rime，体验更好，我用的就是。
+**Arch**最好还是安装fcitx5-rime，体验更好，我用的就是，使用fcitx5的话，可以在我的另一个仓库里[配置皮肤](https://github.com/thep0y/fcitx5-themes)。
 
 
 ## 补充一点：
