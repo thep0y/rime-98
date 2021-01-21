@@ -1,9 +1,12 @@
+## Mac 示意图
 - 这是应用皮肤后的输入效果：
 ![image](https://raw.githubusercontent.com/thep0y/rime-98/master/images/default.png)
 - 这是反查的效果：
 ![image](https://raw.githubusercontent.com/thep0y/rime-98/master/images/reverse.png)
 
 皮肤是在squirrel.yaml里，名叫“mojave_dark”，配置可参考本仓库/build/squirrel.yaml。
+
+
 
 **F4 键在五笔词库和单字词库之间切换。**
 
