@@ -40,6 +40,7 @@ sudo apt install fcitx-rime  # 安装fcitx-rime时会自动安装必需依赖，
 ```
 Ubuntu和Mint都有单独的输入法管理设置，只需要将输入法换成fcitx，并注销即可成功切换成fcitx。
 码表的位置在`~/.config/fcitx/rime`下，可将rime目录下的所有文件都删除，也可以不删，然后将本仓库根目录里的七个yaml文件放到rime目录下，右击工具栏的输入法图标，选择`重新部署`，最后再选择中州韵，即可开启98输入之旅了。
+> debian系也可以使用fcitx5，只是需要自行编绎，建议有动手能力的人自行编绎。使用fcitx5的话，可以在我的另一个仓库里[配置皮肤](https://github.com/thep0y/fcitx5-themes)。
 #### (2)Arch系：
 Manjaro等基于arch的系统以此方式安装。
 ```shell
