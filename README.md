@@ -1,10 +1,20 @@
-## Mac 示意图
+## Mac 效果图
 - 这是应用皮肤后的输入效果：
 ![image](https://raw.githubusercontent.com/thep0y/rime-98/master/images/default.png)
 - 这是反查的效果：
 ![image](https://raw.githubusercontent.com/thep0y/rime-98/master/images/reverse.png)
 
 皮肤是在squirrel.yaml里，名叫“mojave_dark”，配置可参考本仓库/build/squirrel.yaml。
+
+## windows10 效果图
+### 1、green_dark
+![green dark](https://github.com/thep0y/rime-98/raw/master/images/green_dark.png)
+### 2、red_dark
+![red dark](https://github.com/thep0y/rime-98/raw/master/images/red_dark.png)
+### 3、orange_dark
+![orange dark](https://github.com/thep0y/rime-98/raw/master/images/orange_dark.png)
+### 4、win10_black
+![win10 black](https://github.com/thep0y/rime-98/raw/master/images/win10_black.png)
 
 
 
