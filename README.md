@@ -20,19 +20,44 @@
 
 **F4 键在五笔词库和单字词库之间切换。**
 
-## 鼠须管(Mac)使用简要步骤：
-- 将wubi98.dict.yaml(98五笔词库)、wubi98.schema.yaml(配置文件)、pinyin_simp.dict.yaml(反查必须的拼音词库)、pinyin_simp.schema.yaml(拼音词库配置文件)、default.custom.yaml(用户配置文件)下载下来后，放在RIME的配置文件夹内。
+
+
+## 词库/码表
+
+词库文件在`dist`目录中。
+
+```
+├── default.custom.yaml # 配置文件
+├── pinyin_simp.dict.yaml # 拼音词库
+├── pinyin_simp.schema.yaml # 拼音词库配置
+├── wubi98.dict.yaml # 98含词词库
+├── wubi98.schema.yaml # 98含词词库配置
+├── wubi98single.dict.yaml # 98单字词库
+├── wubi-98-single-gbk.dict.yaml # 98单字词库配置
+├── wubi-98-single-gbk.schema.yaml # 98常用单字词库
+└── wubi98single.schema.yaml # 98常用单字词库配置
+```
+
+## 使用
+
+### 鼠须管(Mac)使用简要步骤：
+
+- 将词库文件下载下来后，放在RIME的配置文件夹内。
 - 配置文件夹为`~/Library/Rime`，快速进入方式是通过RIME的“用户设定...”进入。
-- 修改squirrel.yaml，选择自己喜欢的皮肤。
+- 复制`squirrel.custom.yaml`到词库同目录中。
 - 选择“重新部署”，即可生效。
 
-## 小狼毫(Windows)使用简要步骤：
+### 小狼毫(Windows)使用简要步骤：
 - 右击任务栏的小狼毫输入法图标，打开“用户文件夹”。
-- 将wubi98.dict.yaml(98五笔词库)、wubi98.schema.yaml(配置文件)、pinyin_simp.dict.yaml(反查必须的拼音词库)、pinyin_simp.schema.yaml(拼音词库配置文件)、default.custom.yaml(用户配置文件)下载下来放进此文件夹。
+- 将词库下载下来放进此文件夹。
 - 右击任务栏的小狼毫输入法图标，点击“重新部署”，应该就能用了。如果不能用的话，在“输入法设定”里找找是不是有“五笔98”，如果没有，检查你之前的操作。
 
-## 中州韵(Linux)的使用，仅以fcitx-rime为例，ibus-rime有兼容问题：
+### 中州韵(Linux)的使用
+
+仅以fcitx-rime为例，ibus-rime有兼容问题：
+
 #### (1)Debian系
+
 Ubuntu、Debian、Mint等基于Debian的系统都用此方式安装。
 ```shell
 sudo apt autoremove fcitx  # 先卸载掉可能内置的fcitx，一般内置的输入法都会装很多冗余的东西，实际上用不到
@@ -42,6 +67,7 @@ Ubuntu和Mint都有单独的输入法管理设置，只需要将输入法换成f
 码表的位置在`~/.config/fcitx/rime`下，可将rime目录下的所有文件都删除，也可以不删，然后将本仓库根目录里的七个yaml文件放到rime目录下，右击工具栏的输入法图标，选择`重新部署`，最后再选择中州韵，即可开启98输入之旅了。
 > debian系也可以使用fcitx5，只是需要自行编绎，建议有动手能力的人自行编绎。使用fcitx5的话，可以在我的另一个仓库里[配置皮肤](https://github.com/thep0y/fcitx5-themes)。
 #### (2)Arch系：
+
 Manjaro等基于arch的系统以此方式安装。
 ```shell
 # 安装输入法和配置管理软件
