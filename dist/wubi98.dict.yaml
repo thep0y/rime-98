@@ -19,6 +19,7 @@ encoder:
       formula: "AaBaCaCb"
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
+
 ...
 工	a
 式	aa
