@@ -1,0 +1,60 @@
+patch:
+  style:
+     corner_radius: 0
+     font_face: "Smartisan Compact CNS Regular"
+     font_point: 13
+     horizontal: true
+     inline_preedit: true
+     layout: {border_width: 2, candidate_spacing: 30, hilite_padding: 15, hilite_spacing: 15, margin_x: 15, margin_y: 10, min_width: 102, round_corner: 0, spacing: 15}
+
+  preset_color_schemes:
+    green_dark:
+      name: "春夜绿"
+      author: "thepoy"
+      back_color: 0x030303
+      border_color: 0x0A0A0A
+      text_color: 0xFAFAFF
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0x4734D6
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x347440
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFCFCFC
+    red_dark:
+      name: "夏日红"
+      author: "thepoy"
+      back_color: 0x030303
+      border_color: 0x0A0A0A
+      text_color: 0xFAFAFF
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0x4734D6
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x4734D6
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFCFCFC
+    orange_dark:
+      name: "秋日橙"
+      author: "thepoy"
+      back_color: 0x030303
+      border_color: 0x0A0A0A
+      text_color: 0xFAFAFF
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0x4734D6
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0x1D66CD
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFCFCFC
+    win10_black:
+      name: "win10黑/冬时蓝"
+      author: "thepoy"
+      back_color: 0x030303
+      border_color: 0x0A0A0A
+      text_color: 0xFAFAFF
+      hilited_text_color: 0xFFFFFF
+      hilited_back_color: 0x4734D6
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xCD661D
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFCFCFC
+
+  style/color_scheme: green_dark
