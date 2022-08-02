@@ -1,0 +1,3 @@
+[submodule "themes/fcitx5"]
+	path = themes/fcitx5
+	url = https://github.com/thep0y/fcitx5-themes
