@@ -8930,6 +8930,7 @@ thlf	鼾
 thlg	齄
 thlj	劓
 thlj	鼻
+thlk	齁
 thlv	鼽
 thn	息
 thnp	延
