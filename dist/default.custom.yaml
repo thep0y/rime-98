@@ -1,5 +1,6 @@
 patch:
   schema_list:
+    # - schema: wubi98
     - schema: wubi98single
     - schema: wubi-98-single-gbk
 
