@@ -5,7 +5,7 @@ patch:
     - schema: wubi-98-single-gbk
 
   switcher:
-    caption: 〔方案選單〕
+    caption: 〔输入方案〕
     hotkeys:
       - Control+grave
       - Control+Shift+grave
