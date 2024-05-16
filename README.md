@@ -15,12 +15,15 @@
 ![orange dark](https://github.com/thep0y/rime-98/raw/master/images/orange_dark.png)
 ### 4、win10_black
 ![win10 black](https://github.com/thep0y/rime-98/raw/master/images/win10_black.png)
+### 5、透明亮色
+
+![transparent-green](images/transparent-green.png)
 
 
 
-**F4 键在五笔词库和单字词库之间切换。**
 
 
+> **F4 键在五笔词库和单字词库之间切换。**
 
 ## 词库/码表
 
