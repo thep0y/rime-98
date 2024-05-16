@@ -86,5 +86,6 @@ patch:
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0x407434f2
-      candidate_text_color: 0x000
+      hilited_label_color: 0xcbcbcb # 高亮标签颜色
+      candidate_text_color: 0x000 # 侯选文字颜色
       comment_text_color: 0xFCFCFC
