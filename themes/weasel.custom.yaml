@@ -21,7 +21,7 @@ patch:
       shadow_offset_y: 6
       shadow_radius: 13 # 阴影半径
       align_type: center
-    color_scheme: transparent-green
+    color_scheme: win10_black
     color_scheme_dark: green_dark
 
   preset_color_schemes:
