@@ -1,8 +1,14 @@
+# customization:
+#   distribution_code_name: Weasel
+#   distribution_version: 0.15.0.0
+#   generator: "Weasel::UIStyleSettings"
+#   modified_time: "Tue May 14 15:21:58 2024"
+#   rime_version: 1.8.5
 patch:
   style:
     corner_radius: 20
     font_face: "方正悠黑_GBK"
-    font_point: 13
+    font_point: 12
     horizontal: true
     inline_preedit: true
     label_font_point: 10
@@ -86,6 +92,8 @@ patch:
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0x407434f2
+      # hilited_candidate_label_color: 0xFFFFF
       hilited_label_color: 0xcbcbcb # 高亮标签颜色
+      hilited_comment_text_color: 0xddd # 高亮注释颜色
       candidate_text_color: 0x000 # 侯选文字颜色
-      comment_text_color: 0xFCFCFC
+      comment_text_color: 0x999
