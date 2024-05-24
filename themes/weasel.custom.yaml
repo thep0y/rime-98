@@ -2,10 +2,10 @@ patch:
   style:
     corner_radius: 20
     font_face: "方正悠黑_GBK"
-    font_point: 12
+    font_point: 12 # 侯选字体大小
     horizontal: true
     inline_preedit: true
-    label_font_point: 10
+    label_font_point: 10 # 侯选标签字体大小
     layout:
       border_width: 1
       candidate_spacing: 30
@@ -20,9 +20,9 @@ patch:
       shadow_offset_x: 0
       shadow_offset_y: 6
       shadow_radius: 13 # 阴影半径
-      align_type: center
-    color_scheme: win10_black
-    color_scheme_dark: green_dark
+      align_type: center # 垂直居中
+    color_scheme: transparent-green # 亮色皮肤
+    color_scheme_dark: green_dark # 暗色皮肤
 
   preset_color_schemes:
     green_dark:
