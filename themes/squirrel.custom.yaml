@@ -5,7 +5,6 @@ patch:
       author: "xiehuc <xiehuc@gmail.com>"
       back_color: 0x252320
       border_color: 0x020202
-      candidate_format: "%c %@"
       candidate_text_color: 0xdedddd
       comment_text_color: 0xdedddd
       hilited_back_color: 0x252320
@@ -21,21 +20,23 @@ patch:
       comment_text_color: 0x999999
       hilited_candidate_back_color: 0xd75a01
       hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFFFFF
       text_color: 0x424242
-      label_color: 0xBBBBBB                   # 序号颜色
-      hilited_candidate_label_color: 0xcbcbcb # 选中序号颜色
+      # label_color: 0xBBBBBB                   # 序号颜色
+      # hilited_candidate_label_color: 0xcbcbcb # 选中序号颜色
 
   style:
-    candidate_format: "%c. %@ "
+    candidate_format: "%c %@ "
     font_face: PingFangSC
     font_point: 16
     inline_preedit: true
-    label_font_point: 12
+    label_font_point: 10
     horizontal: true
-    line_spacing: 5
-    border_height: -2 # 整体窗口上下内边距
-    border_width: -2 # 整体窗口左右内边距
-    corner_radius: 10 # 整体窗口圆角
+    # line_spacing: 5
+    # align_type: center
+    border_height: -1 # 整体窗口上下内边距
+    border_width: -1 # 整体窗口左右内边距
+    corner_radius: 6 # 整体窗口圆角
     hilited_corner_radius: 0 # 选中候选项圆角
     color_scheme: mojave
     color_scheme_dark: mojave_dark
