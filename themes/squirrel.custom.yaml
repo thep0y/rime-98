@@ -22,21 +22,26 @@ patch:
       hilited_candidate_text_color: 0xFFFFFF
       hilited_comment_text_color: 0xFFFFFF
       text_color: 0x424242
-      # label_color: 0xBBBBBB                   # 序号颜色
-      # hilited_candidate_label_color: 0xcbcbcb # 选中序号颜色
 
   style:
-    candidate_format: "%c %@ "
-    font_face: PingFangSC
-    font_point: 16
     inline_preedit: true
+    inline_candidate: false
+    memorize_size: true
+    mutual_exclusive: false
+    candidate_list_layout: linear # stacked | linear
+    text_orientation: horizontal # horizontal | vertical
+    candidate_format: "[label] [candidate] [comment]"
+
+    font_face: PingFang SC
+    font_point: 16
     label_font_point: 10
-    horizontal: true
-    # line_spacing: 5
-    # align_type: center
-    border_height: -1 # 整体窗口上下内边距
-    border_width: -1 # 整体窗口左右内边距
-    corner_radius: 6 # 整体窗口圆角
+
+    line_spacing: 5
+    border_height: -2 # 整体窗口上下内边距
+    border_width: -2 # 整体窗口左右内边距
+    corner_radius: 7 # 整体窗口圆角
     hilited_corner_radius: 0 # 选中候选项圆角
+    shadow_size: 0
+
     color_scheme: mojave
     color_scheme_dark: mojave_dark
