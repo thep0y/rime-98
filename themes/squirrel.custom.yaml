@@ -3,11 +3,12 @@ patch:
     mojave_dark:
       name: "沙漠夜／Mojave Dark"
       author: "xiehuc <xiehuc@gmail.com>"
-      back_color: 0x252320
+      back_color: 0x363332
       border_color: 0x020202
       candidate_text_color: 0xdedddd
       comment_text_color: 0xdedddd
       hilited_back_color: 0x252320
+      label_color: 0x717171
       hilited_candidate_back_color: 0xcb5d00
       hilited_candidate_label_color: 0xffffff
       hilited_candidate_text_color: 0xffffff
@@ -30,11 +31,11 @@ patch:
     mutual_exclusive: false
     candidate_list_layout: linear # stacked | linear
     text_orientation: horizontal # horizontal | vertical
-    candidate_format: "[label] [candidate] [comment]"
+    candidate_format: "[label]  [candidate] [comment]"
 
     font_face: PingFang SC
     font_point: 16
-    label_font_point: 10
+    label_font_point: 8
 
     line_spacing: 5
     border_height: -2 # 整体窗口上下内边距
