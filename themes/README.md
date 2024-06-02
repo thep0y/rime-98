@@ -6,12 +6,15 @@
 
 ## Mac 效果图
 
-- 这是应用皮肤后的输入效果：
-  ![image](../images/default.png)
-- 这是反查的效果：
-  ![image](../images/reverse.png)
+配置文件中已设置跟随系统自动切换暗色模式。
 
-皮肤是在 squirrel.yaml 里，名叫“mojave_dark”，配置可参考本仓库/build/squirrel.yaml。
+### 亮色
+
+![light](../images/mac-light.png)
+
+### 暗色
+
+![dark](../images/mac-dark.png)
 
 ## Windows10/11 效果图
 
