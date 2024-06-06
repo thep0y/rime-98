@@ -2,21 +2,22 @@ patch:
   style:
     corner_radius: 20
     font_face: "方正悠黑_GBK"
-    font_point: 12 # 侯选字体大小
+    font_point: 12 # 候选字体大小
     horizontal: true
     inline_preedit: true
-    label_font_point: 10 # 侯选标签字体大小
+    label_font_point: 10 # 候选标签字体大小
+    label_format: "%s"
     layout:
       border_width: 1
-      candidate_spacing: 30
-      hilite_padding: 15
-      hilite_spacing: 15
-      margin_x: 15
+      candidate_spacing: 10
+      hilite_padding: 10
+      hilite_spacing: 8
+      margin_x: 5
       margin_y: 10
-      min_width: 102
+      min_width: 80
       round_corner: 0
       spacing: 15
-      corner_radius: 24
+      corner_radius: 16
       shadow_offset_x: 0
       shadow_offset_y: 6
       shadow_radius: 13 # 阴影半径
@@ -80,8 +81,9 @@ patch:
       color_format: rgba
       back_color: 0xfffffff2
       shadow_color: 0x00000020
-      border_color: 0x000
+      border_color: 0xccc
       text_color: 0x000
+      label_color: 0x717171
       hilited_text_color: 0xFFFFFF
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
@@ -89,5 +91,5 @@ patch:
       # hilited_candidate_label_color: 0xFFFFF
       hilited_label_color: 0xcbcbcb # 高亮标签颜色
       hilited_comment_text_color: 0xddd # 高亮注释颜色
-      candidate_text_color: 0x000 # 侯选文字颜色
+      candidate_text_color: 0x000 # 候选文字颜色
       comment_text_color: 0x999
