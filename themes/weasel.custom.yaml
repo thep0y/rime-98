@@ -5,7 +5,7 @@ patch:
     font_point: 12 # 候选字体大小
     horizontal: true
     inline_preedit: true
-    label_font_point: 10 # 候选标签字体大小
+    label_font_point: 8 # 候选标签字体大小
     label_format: "%s"
     layout:
       border_width: 1
