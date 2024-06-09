@@ -9,15 +9,15 @@ patch:
     label_format: "%s"
     layout:
       border_width: 1
-      candidate_spacing: 10
-      hilite_padding: 10
-      hilite_spacing: 8
+      candidate_spacing: 8
+      hilite_padding: 8
+      hilite_spacing: 6
       margin_x: 5
-      margin_y: 10
-      min_width: 80
+      margin_y: 8
+      min_width: 64
       round_corner: 0
       spacing: 15
-      corner_radius: 16
+      corner_radius: 7
       shadow_offset_x: 0
       shadow_offset_y: 6
       shadow_radius: 13 # 阴影半径
