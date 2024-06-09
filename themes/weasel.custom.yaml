@@ -29,50 +29,54 @@ patch:
     green_dark:
       name: "春夜绿"
       author: "thepoy"
-      back_color: 0x030303
-      border_color: 0x0A0A0A
+      back_color: 0x363332
+      border_color: 0x363332
       text_color: 0xFAFAFF
       hilited_text_color: 0xFFFFFF
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0x347440
+      hilited_label_color: 0xFAFAFF # 高亮标签颜色
       candidate_text_color: 0xFFFFFF
       comment_text_color: 0xFCFCFC
       label_font_point: 10
     red_dark:
       name: "夏日红"
       author: "thepoy"
-      back_color: 0x030303
-      border_color: 0x0A0A0A
+      back_color: 0x363332
+      border_color: 0x363332
       text_color: 0xFAFAFF
       hilited_text_color: 0xFFFFFF
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0x4734D6
+      hilited_label_color: 0xFAFAFF # 高亮标签颜色
       candidate_text_color: 0xFFFFFF
       comment_text_color: 0xFCFCFC
     orange_dark:
       name: "秋日橙"
       author: "thepoy"
-      back_color: 0x030303
-      border_color: 0x0A0A0A
+      back_color: 0x363332
+      border_color: 0x363332
       text_color: 0xFAFAFF
       hilited_text_color: 0xFFFFFF
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0x1D66CD
+      hilited_label_color: 0xFAFAFF # 高亮标签颜色
       candidate_text_color: 0xFFFFFF
       comment_text_color: 0xFCFCFC
     win10_black:
       name: "win10黑/冬时蓝"
       author: "thepoy"
-      back_color: 0x030303
-      border_color: 0x0A0A0A
+      back_color: 0x363332
+      border_color: 0x363332
       text_color: 0xFAFAFF
       hilited_text_color: 0xFFFFFF
       hilited_back_color: 0x4734D6
       hilited_candidate_text_color: 0xFFFFFF
       hilited_candidate_back_color: 0xCD661D
+      hilited_label_color: 0xFAFAFF # 高亮标签颜色
       candidate_text_color: 0xFFFFFF
       comment_text_color: 0xFCFCFC
     transparent-green:
